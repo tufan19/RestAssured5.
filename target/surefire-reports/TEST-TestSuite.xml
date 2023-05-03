@@ -1,317 +1,70 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="26" failures="3" name="TestSuite" time="17.291" errors="0" skipped="5">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="13.133" tests="5" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="idea.version" value="2022.2.3"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_351\jre\bin"/>
-    <property name="java.vm.version" value="25.351-b10"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Tufan\IdeaProjects\RestAssured5"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.class.path" value="C:\Users\Tufan\IdeaProjects\RestAssured5\target\test-classes;C:\Users\Tufan\IdeaProjects\RestAssured5\target\classes;C:\Users\Tufan\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\Tufan\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Tufan\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Tufan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Tufan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Tufan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Tufan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Tufan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Tufan\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Tufan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Tufan\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\Tufan\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Tufan\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\Tufan\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\Tufan\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Tufan\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Tufan\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Tufan\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\Tufan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\Tufan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\Tufan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\Tufan\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Tufan\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Tufan\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Tufan\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Tufan\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Istanbul"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
     <property name="user.country" value="TR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Tufan\IdeaProjects\RestAssured5"/>
-    <property name="java.runtime.version" value="1.8.0_351-b10"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\Tufan\AppData\Local\Temp\"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\plugins\maven\lib\maven-event-listener.jar"/>
-    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\plugins\maven\lib\maven3\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1254"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_351\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\Tufan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;."/>
-    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\plugins\maven\lib\maven3/conf"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="user.home" value="C:\Users\Tufan"/>
-    <property name="user.timezone" value="Asia/Istanbul"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="Tufan"/>
-    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\lib\idea_rt.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_351\jre"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.3 test"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="tr"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_351"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_351\jre\classes"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.specification.maintenance.version" value="4"/>
-    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\plugins\maven\lib\maven3"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_351\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Tufan\AppData\Local\Temp\surefire5082352172992385297\surefirebooter2543917943898407750.jar C:\Users\Tufan\AppData\Local\Temp\surefire5082352172992385297 2023-05-03T09-12-55_291-jvmRun1 surefire1571688284973574575tmp surefire_0943273804179919072tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Tufan\IdeaProjects\RestAssured5\target\test-classes;C:\Users\Tufan\IdeaProjects\RestAssured5\target\classes;C:\Users\Tufan\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\Tufan\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Tufan\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Tufan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Tufan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Tufan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Tufan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Tufan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Tufan\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Tufan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Tufan\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\Tufan\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Tufan\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\Tufan\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\Tufan\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Tufan\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Tufan\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Tufan\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\Tufan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\Tufan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\Tufan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\Tufan\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Tufan\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Tufan\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Tufan\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Tufan\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Tufan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_351\jre"/>
+    <property name="basedir" value="C:\Users\Tufan\IdeaProjects\RestAssured5"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Tufan\AppData\Local\Temp\surefire5082352172992385297\surefirebooter2543917943898407750.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_351\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_351-b10"/>
+    <property name="user.name" value="Tufan"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1254"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Tufan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Tufan\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.2.3"/>
+    <property name="java.version" value="1.8.0_351"/>
+    <property name="user.dir" value="C:\Users\Tufan\IdeaProjects\RestAssured5"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_351\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\Tufan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.351-b10"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase classname="Campus.CountryTest" name="Login" time="4.21">
-    <failure message="1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;400&gt;.
-" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;400&gt;.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:58)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:46)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:50)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:50)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Campus.CountryTest.Login(CountryTest.java:35)
-</failure>
-    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@7bfcd12c
-HTTP/1.1 400 Bad Request
-Content-Type: application/problem+json
-Date: Mon, 01 May 2023 17:22:33 GMT
-Server: nginx
-Vary: Origin
-Vary: Access-Control-Request-Method
-Vary: Access-Control-Request-Headers
-Transfer-Encoding: chunked
-
-{
-    &quot;type&quot;: &quot;https://support.mersys.io/cloud/problem/problem-with-message&quot;,
-    &quot;title&quot;: &quot;Bad Request&quot;,
-    &quot;status&quot;: 400,
-    &quot;detail&quot;: &quot;Required request body is missing: public org.springframework.http.ResponseEntity&lt;org.springframework.security.oauth2.common.OAuth2AccessToken&gt; io.mersys.cloud.service.gateway.web.rest.AuthResource.authenticate(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Map&lt;java.lang.String, java.lang.String&gt;)&quot;,
-    &quot;path&quot;: &quot;/auth/login&quot;,
-    &quot;message&quot;: &quot;error.http.400&quot;
-}
-</system-out>
-  </testcase>
-  <testcase classname="Campus.CountryTest" name="createCountry" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Campus.CountryTest" name="createCountryNegative" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Campus.CountryTest" name="updateCountry" time="0.008">
-    <skipped/>
-  </testcase>
-  <testcase classname="Campus.CountryTest" name="deleteCountry" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Campus.CountryTest" name="deleteCountryNefative" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="ZippoTest" name="bodyArrayHasSizeTest" time="1.344"/>
-  <testcase classname="ZippoTest" name="checkCountryInResponseBodyt" time="0.319">
-    <failure message="1 expectation failed.
-JSON path country doesn&apos;t match.
-Expected: ünited States
-  Actual: United States
-" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
-JSON path country doesn&apos;t match.
-Expected: ünited States
-  Actual: United States
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:270)
-	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:50)
-	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
-	at ZippoTest.checkCountryInResponseBodyt(ZippoTest.java:76)
-</failure>
-    <system-out>{
-    &quot;post code&quot;: &quot;90210&quot;,
-    &quot;country&quot;: &quot;United States&quot;,
-    &quot;country abbreviation&quot;: &quot;US&quot;,
-    &quot;places&quot;: [
-        {
-            &quot;place name&quot;: &quot;Beverly Hills&quot;,
-            &quot;longitude&quot;: &quot;-118.4065&quot;,
-            &quot;state&quot;: &quot;California&quot;,
-            &quot;state abbreviation&quot;: &quot;CA&quot;,
-            &quot;latitude&quot;: &quot;34.0901&quot;
-        }
-    ]
-}
-</system-out>
-  </testcase>
-  <testcase classname="ZippoTest" name="checkHasItemy" time="0.349"/>
-  <testcase classname="ZippoTest" name="checkstateInResponseBody" time="0.349"/>
-  <testcase classname="ZippoTest" name="combiningTest" time="0.346"/>
-  <testcase classname="ZippoTest" name="contentTypeTest" time="0.286"/>
-  <testcase classname="ZippoTest" name="extracingJsonPathTest" time="0.346"/>
-  <testcase classname="ZippoTest" name="extractPOJO_Soru" time="0.835"/>
-  <testcase classname="ZippoTest" name="extractingJsonAll" time="0.34"/>
-  <testcase classname="ZippoTest" name="extractingJsonPath2" time="0.324"/>
-  <testcase classname="ZippoTest" name="extractingJsonPath3" time="0.827"/>
-  <testcase classname="ZippoTest" name="extractingJsonPath4" time="0.431"/>
-  <testcase classname="ZippoTest" name="extractingJsonPath5" time="0.435"/>
-  <testcase classname="ZippoTest" name="extractingJsonPathResponsAll" time="0.709">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertTrue(Assert.java:45)
-	at org.testng.Assert.assertTrue(Assert.java:55)
-	at ZippoTest.extractingJsonPathResponsAll(ZippoTest.java:355)
-</failure>
-    <system-out>{
-    &quot;meta&quot;: {
-        &quot;pagination&quot;: {
-            &quot;total&quot;: 2888,
-            &quot;pages&quot;: 289,
-            &quot;page&quot;: 1,
-            &quot;limit&quot;: 10,
-            &quot;links&quot;: {
-                &quot;previous&quot;: null,
-                &quot;current&quot;: &quot;https://gorest.co.in/public/v1/users?page=1&quot;,
-                &quot;next&quot;: &quot;https://gorest.co.in/public/v1/users?page=2&quot;
-            }
-        }
-    },
-    &quot;data&quot;: [
-        {
-            &quot;id&quot;: 1313009,
-            &quot;name&quot;: &quot;Prof. Mukesh Tagore&quot;,
-            &quot;email&quot;: &quot;tagore_prof_mukesh@effertz.test&quot;,
-            &quot;gender&quot;: &quot;female&quot;,
-            &quot;status&quot;: &quot;inactive&quot;
-        },
-        {
-            &quot;id&quot;: 1313008,
-            &quot;name&quot;: &quot;Rev. Ambar Patil&quot;,
-            &quot;email&quot;: &quot;rev_patil_ambar@bartoletti.example&quot;,
-            &quot;gender&quot;: &quot;male&quot;,
-            &quot;status&quot;: &quot;inactive&quot;
-        },
-        {
-            &quot;id&quot;: 1313006,
-            &quot;name&quot;: &quot;Trilokanath Nehru&quot;,
-            &quot;email&quot;: &quot;trilokanath_nehru@langosh.test&quot;,
-            &quot;gender&quot;: &quot;female&quot;,
-            &quot;status&quot;: &quot;active&quot;
-        },
-        {
-            &quot;id&quot;: 1313005,
-            &quot;name&quot;: &quot;Lal Acharya&quot;,
-            &quot;email&quot;: &quot;lal_acharya@batz.example&quot;,
-            &quot;gender&quot;: &quot;male&quot;,
-            &quot;status&quot;: &quot;active&quot;
-        },
-        {
-            &quot;id&quot;: 1313004,
-            &quot;name&quot;: &quot;Ankal Butt&quot;,
-            &quot;email&quot;: &quot;butt_ankal@nicolas-streich.test&quot;,
-            &quot;gender&quot;: &quot;male&quot;,
-            &quot;status&quot;: &quot;inactive&quot;
-        },
-        {
-            &quot;id&quot;: 1313003,
-            &quot;name&quot;: &quot;Dhanvin Verma DO&quot;,
-            &quot;email&quot;: &quot;do_verma_dhanvin@schiller-kozey.test&quot;,
-            &quot;gender&quot;: &quot;female&quot;,
-            &quot;status&quot;: &quot;active&quot;
-        },
-        {
-            &quot;id&quot;: 1313002,
-            &quot;name&quot;: &quot;Mandaakin Jha&quot;,
-            &quot;email&quot;: &quot;mandaakin_jha@heller.example&quot;,
-            &quot;gender&quot;: &quot;male&quot;,
-            &quot;status&quot;: &quot;inactive&quot;
-        },
-        {
-            &quot;id&quot;: 1313001,
-            &quot;name&quot;: &quot;Birjesh Ahuja&quot;,
-            &quot;email&quot;: &quot;ahuja_birjesh@kiehn-moen.test&quot;,
-            &quot;gender&quot;: &quot;female&quot;,
-            &quot;status&quot;: &quot;active&quot;
-        },
-        {
-            &quot;id&quot;: 1313000,
-            &quot;name&quot;: &quot;Acaryatanaya Varrier Esq.&quot;,
-            &quot;email&quot;: &quot;esq_acaryatanaya_varrier@oreilly.example&quot;,
-            &quot;gender&quot;: &quot;female&quot;,
-            &quot;status&quot;: &quot;inactive&quot;
-        },
-        {
-            &quot;id&quot;: 1312999,
-            &quot;name&quot;: &quot;Himadri Chattopadhyay IV&quot;,
-            &quot;email&quot;: &quot;himadri_chattopadhyay_iv@breitenberg.test&quot;,
-            &quot;gender&quot;: &quot;female&quot;,
-            &quot;status&quot;: &quot;inactive&quot;
-        }
-    ]
-}
-idler = [1313009, 1313008, 1313006, 1313005, 1313004, 1313003, 1313002, 1313001, 1313000, 1312999]
-names = [Prof. Mukesh Tagore, Rev. Ambar Patil, Trilokanath Nehru, Lal Acharya, Ankal Butt, Dhanvin Verma DO, Mandaakin Jha, Birjesh Ahuja, Acaryatanaya Varrier Esq., Himadri Chattopadhyay IV]
-limit = 10
-</system-out>
-  </testcase>
-  <testcase classname="ZippoTest" name="ilkTest" time="0.314"/>
-  <testcase classname="ZippoTest" name="pathParamTest" time="0.3"/>
-  <testcase classname="ZippoTest" name="queryParamTest" time="0.411"/>
-  <testcase classname="ZippoTest" name="queryParamTest2" time="4.414"/>
-  <testcase classname="ZippoTest" name="requestResponseSpecificationn" time="0.393"/>
-  <testcase classname="ZippoTest" name="test" time="0.001"/>
+  <testcase name="createCountry" classname="Campus.CountryTest" time="3.753"/>
+  <testcase name="createCountryNegative" classname="Campus.CountryTest" time="0.553"/>
+  <testcase name="updateCountry" classname="Campus.CountryTest" time="0.466"/>
+  <testcase name="deleteCountry" classname="Campus.CountryTest" time="0.41"/>
+  <testcase name="deleteCountryNefative" classname="Campus.CountryTest" time="0.349"/>
 </testsuite>
